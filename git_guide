@@ -33,6 +33,16 @@ we use   ✅ ▶ git checkout master     📌active master branch after back hea
 the  ▶ git checkout  favoratie name   📌know branch  this one
 every branch like a timeline    each deffrent on file   not imapct on original master 
 
+▶ ssh-keygen -t rsa -b 4096 -c "youmail@gmail.com"   📌t > type   b > base   c >email
+after ask qusetion  about  location save   password access   then  key is maked
+📌 now need to let our computer know that we want to use this key 
+first step
+start ssh agent    ▶ eval $(ssh-agent -s)  then  ssh key  add   ▶ ssh-add ~/.ssh/id_rsa   📌 home folder desaktop that save above command
+second step  copy to public key ▶ clip <~/.ssh/id_rsa.pub [nether way for copy]  to github  > setting >ssh key > paste 
+
+
+
+
 ▶ git merge name   📌this branch adopt with orginal master branch
 
 ▶ cd  📌in cli   change directory
