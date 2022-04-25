@@ -24,8 +24,13 @@ this command gonna just given us aa history of commit   hach code  head
 ▶ git checkout   head  (fetch  git log  hash code)
 💔💔your commit back  to past state 
 
-▶ git branch 
+▶ git branch    show list branch  and star❇ my branch
 ❇ star tell us  that your branch this time 
 ⛔⛔Notice   when checkout   and  back to older  head  star ❇  taken off from master branch  
 we use   ✅ ▶ git checkout master     📌active master branch after back head
 
+▶ git branch favoratie name   📌make a branch with this name
+the  ▶ git checkout  favoratie name   📌know branch  this one
+every branch like a timeline    each deffrent on file   not imapct on original master 
+
+▶ git merge name   📌this branch adopt with orginal master branch
