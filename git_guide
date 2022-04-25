@@ -1,28 +1,31 @@
-git config --global user.name "my name"
-git config --global user.email "your@mail.com"
+▶ git config --global user.name "my name"
+▶ git config --global user.email "your@mail.com"
 
-i use ls -a    to view hidden files and folder theres now
+i use  ▶ ls -a    📌 to view hidden files and folder theres now
 
-touch  index.html      make a this file ✅
-git status    this command  use every time   for check commit   and understanding where  branch status
+▶ touch  index.html     📌 make a this file ✅
+▶ git status    📌this command  use every time   for check commit   and understanding where  branch status
 📌change  file    📌new file added
 
 
 we will  commit a file   two stage   1.✅  2.✅
 
-1-git add file.js  file2.js file3.js     staging area    git add .  all file added to staging area ✔
+1- ▶ git add file.js  file2.js file3.js     📌staging area   ▶  git add .   📌all file added to staging area ✔
 
 
-2- git commit -m "your message for this commit"  ✔
+2- ▶ git commit -m "your message for this commit"  
 
 
 📌📌📌📌📌📌📌📌📌📌📌📌📌📌
 
-git log  
+▶ git log  
 this command gonna just given us aa history of commit   hach code  head
 
-⛔git checkout   head  (fetch  git log  hash code)
+▶ git checkout   head  (fetch  git log  hash code)
 💔💔your commit back  to past state 
 
-git branch 
+▶ git branch 
+❇ star tell us  that your branch this time 
+⛔⛔Notice   when checkout   and  back to older  head  star ❇  taken off from master branch  
+we use   ✅ ▶ git checkout master     📌active master branch after back head
 
