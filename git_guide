@@ -34,3 +34,6 @@ the  ▶ git checkout  favoratie name   📌know branch  this one
 every branch like a timeline    each deffrent on file   not imapct on original master 
 
 ▶ git merge name   📌this branch adopt with orginal master branch
+
+▶ cd  📌in cli   change directory
+▶ ls -la   list everyt thing in dirctory
