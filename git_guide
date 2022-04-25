@@ -37,3 +37,14 @@ every branch like a timeline    each deffrent on file   not imapct on original m
 
 ▶ cd  📌in cli   change directory
 ▶ ls -la   list everyt thing in dirctory
+
+Github WorkFlow   1.write code  2.commit changes  3.Make a Pull Request
+Local Git Workflow  1.Write code  2.stage changes   3.commit changes    4.push chaanges 
+
+git push orgin master  
+
+✅ for first time  to connect  github 
+1.  ssh key genrate in local area    then paste in   setting > ssh key  github  gitlab  or etc
+
+
+
