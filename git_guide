@@ -54,7 +54,22 @@ Local Git Workflow  1.Write code  2.stage changes   3.commit changes    4.push c
 git push orgin master  
 
 ✅ for first time  to connect  github 
-1.  ssh key genrate in local area    then paste in   setting > ssh key  github  gitlab  or etc
+✅  ssh key genrate in local area    then paste in   setting > ssh key  github  gitlab  or etc
+
+ 🔶 ssh key genrate
+ 🔵 Step 1: Generate Your SSH Key   📌Make sure Git Bash is open. To generate an SSH key use the following command. Be sure to replace the fake email with your real email address
+
+▶ ssh-keygen -t rsa -b 4096 -C "example@example.com"    t ype  b  base   c  mail
+
+🔵Step 2: Use the Key  📌Now that the key is generated, we need to put it to use. Start by starting the ssh agent  
+▶ eval $(ssh-agent -s)
+📌Then add the key we just generated. If you selected a different path than the default, be sure to replace that path in the command.
+▶ ssh-add ~/.ssh/id_rsa
+🔵Step 3: Add the SSH Key on GitHub
+Now that we have the ssh key setup on our computer, we need to set it up on the GitHub website. First, we will use a command to copy it to our clipboard and then paste it on to GitHub.
+ ▶ clip < ~/.ssh/id_rsa.pub
+
+
 
 
 
