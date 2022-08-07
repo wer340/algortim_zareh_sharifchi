@@ -1,6 +1,6 @@
 # note 
 
-#mutable vs  immutable  
+# mutable vs  immutable  
 ```python
 a=[1,2,3,4,5,6]
 print(id(a))
